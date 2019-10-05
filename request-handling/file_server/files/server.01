@@ -1,5 +1,5 @@
 $ cat /etc/centos-release
-CentOS release 6.2 (Final)
+CentOS release 6.2 (Final1)
 
 $ lscpu
 Architecture:          x86_64
