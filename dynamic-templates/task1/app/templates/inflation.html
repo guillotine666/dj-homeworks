@@ -46,9 +46,9 @@
                     <td>{{ d }}</td>
                   {% elif d < 0 %}
                     <td class="green">{{ d }}</td>
-                  {% elif d >= 1 and d < 2 %}
+                  {% elif 1 <= d < 2 %}
                     <td class="red lighten-5">{{ d }}</td>
-                  {% elif d >= 2 and d < 5 %}
+                  {% elif 2 <= d < 5 %}
                     <td class="red lighten-2">{{ d }}</td>
                   {% elif d >= 5 %}
                     <td class="red">{{ d }}1</td>
