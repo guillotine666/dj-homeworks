@@ -17,7 +17,7 @@ class Article(models.Model):
 
 
 class Scope(models.Model):
-    topic = models.TextField(verbose_name='Имя тэга')
+    topic = models.CharField(max_length=255, verbose_name='Имя тэга')
 
     def __str__(self):
         return self.topic
